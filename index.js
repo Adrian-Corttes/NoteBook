@@ -21,6 +21,10 @@ app.get('/',(req, res)=>{
 
 //Iniciamos el servidor
 app.listen('3000', ()=>{
-   conectar()
+   //conectar()
    console.log('Server listening on port 3000')
 });
+
+
+
+//https://www.youtube.com/watch?v=U5C_VbKCaIc&t=2177s  0:41:12

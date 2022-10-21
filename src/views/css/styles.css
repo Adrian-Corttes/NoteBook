@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nunito:ital,wght@0,400;1,700&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family:'Nunito', sans-serif;
+   font-size: 20px;
+}
+.header{
+   background-color: rgb(29, 28, 28);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 85px;
+   padding: 5px 5%;
+}
+.logo__img{
+   height: 70px;
+   width: auto;
+   transition: all 0.3s;
+}
+.logo__img:hover{
+   transform: scale(1.2);
+}
+
+.navbar__links{
+   list-style: none;
+}
+.navbar__link{
+   display: inline-block;
+   padding: 0 20px;
+}
+
+/* https://www.youtube.com/watch?v=jeQiN0gPIZw 10:10 */

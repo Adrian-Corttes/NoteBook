@@ -5,35 +5,40 @@
    <meta charset="UTF-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Res | Api</title>
-   <!-- BootStrap CDNS -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" />
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+   <title>NoteBook</title>
+   <!-- link CSS -->
+   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
    <header class="header">
-      <nav class="navbar bg-dark mb-5">
-         <div class="container">
-           <a class="navbar-brand" href="#">
-             <img src="#" alt="BE+ GROUP" width="30" height="24">
-           </a>
-         </div>
-       </nav>
+      <div class="logo">
+         <a class="logo__link" href="#"><img class="logo__img" src="./img/be.jpg" alt="logo"></a>
+      </div>
+
+      <nav class="navbar">
+         <ul class="navbar__links">
+            <li class="navbar__link"><a href="#">Servicios</a></li>
+            <li class="navbar__link"><a href="#">Projectos</a></li>
+            <li class="navbar__link"><a href="#">Conocenos</a></li>
+         </ul>
+      </nav>
+
+      <a href="#"><button class="btn">Contacto</button></a>
    </header>
- 
+
 
    <div class="container center">
       <form class="col-3">
          <div class="mb-3">
             <label for="name" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="name"/>
+            <input type="text" class="form-control" id="name" />
          </div>
          <div class="mb-3">
-            <label for="number" class="form-label">Numero</label>
+            <label for="number" class="form-label">Telefono</label>
             <input type="text" class="form-control" id="number" />
          </div>
-   
+
          <button type="submit" class="btn btn-primary" id="button">Agregar Contacto</button>
       </form>
    </div>
