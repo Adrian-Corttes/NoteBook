@@ -1,0 +1,8 @@
+   CREATE DATABASE IF NOT EXISTS contactos;
+
+CREATE TABLE agenda(
+   id INT(11) NOT NULL AUTO_INCREMENT,
+   nombre VARCHAR(50),
+   numero INT(20),
+   PRIMARY KEY(id)
+);
